@@ -1,10 +1,10 @@
 // Offline support (brief: Practice and a downloaded Daily Melody work offline).
 // Network-first for pages and content (fresh when online), cache fallback when offline;
 // cache-first for hashed build assets.
-const CACHE = 'eartrainer-v1';
+const CACHE = 'eartrainer-v3';
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './content/content.v1.json', './icon.svg', './manifest.webmanifest'])));
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './content/content.v1.json', './icon.svg', './icon-180.png', './icon-192.png', './manifest.webmanifest'])));
   self.skipWaiting();
 });
 
