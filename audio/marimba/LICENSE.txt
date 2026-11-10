@@ -1,0 +1,4 @@
+Marimba (GM 13) from the Fluid R3 GM SoundFont by Frank Wen, CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/us/
+Pre-rendered MP3s from https://github.com/gleitz/midi-js-soundfonts (FluidR3_GM), which states the CC BY 3.0 licence for this soundfont.
+Files renamed (Eb -> Ds, Gb -> Fs); one note every minor third, A2 to C7.
