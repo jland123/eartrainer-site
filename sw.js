@@ -19,15 +19,20 @@ self.addEventListener('fetch', (e) => {
   const isAsset = new URL(req.url).pathname.includes('/assets/');
   if (isAsset) {
     e.respondWith(caches.match(req).then((hit) => hit || fetch(req).then((res) => {
-      const copy = res.clone();
-      caches.open(CACHE).then((c) => c.put(req, copy));
+      if (res.ok) {
+        const copy = res.clone();
+        caches.open(CACHE).then((c) => c.put(req, copy));
+      }
       return res;
     })));
     return;
   }
+  // Only good responses are cached: a 404 or 500 must not replace the working offline copy.
   e.respondWith(fetch(req).then((res) => {
-    const copy = res.clone();
-    caches.open(CACHE).then((c) => c.put(req, copy));
+    if (res.ok) {
+      const copy = res.clone();
+      caches.open(CACHE).then((c) => c.put(req, copy));
+    }
     return res;
   }).catch(() => caches.match(req).then((hit) => hit || caches.match('./'))));
 });

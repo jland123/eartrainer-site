@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b6cff"/><stop offset=".5" stop-color="#c45cff"/><stop offset="1" stop-color="#ff5fa8"/></linearGradient></defs>
-  <rect width="512" height="512" rx="112" fill="#0c0a17"/>
-  <rect x="56" y="56" width="400" height="400" rx="92" fill="url(#g)"/>
-  <g fill="#fff">
-    <rect x="120" y="150" width="56" height="212" rx="14"/><rect x="190" y="150" width="56" height="212" rx="14"/>
-    <rect x="260" y="150" width="56" height="212" rx="14"/><rect x="330" y="150" width="56" height="212" rx="14"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#f4efe4"/>
+  <g transform="translate(3.2 3.2) scale(0.8)">
+    <path d="M2 22h28M2 16h28M2 10h28" stroke="#d9cfbc" stroke-width="1"/>
+    <ellipse cx="12" cy="22" rx="4.6" ry="3.4" transform="rotate(-20 12 22)" fill="#a8251c"/>
+    <path d="M16.2 21V5c3.5 1.6 6.6 3.8 6.8 8" fill="none" stroke="#a8251c" stroke-width="2" stroke-linecap="round"/>
   </g>
-  <g fill="#0c0a17"><rect x="160" y="150" width="40" height="120" rx="10"/><rect x="300" y="150" width="40" height="120" rx="10"/></g>
 </svg>
