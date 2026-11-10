@@ -1,0 +1,1 @@
+function e(e,t,n){if(!e.length)return .9;let r=e[Math.min(Math.max(0,t),e.length-1)];return Math.min(4,Math.max(.15,r.durationBeats*60/n))}function t(t,n,r){return n.map((i,a)=>{let o=e(t,a,r)*1e3,s=n[a+1];return s?Math.max(0,Math.min(o,s.tapTimeMs-i.tapTimeMs)):o})}function n(e,t){return e.slice(0,t.length).map((e,n)=>({...e,midi:t[n]}))}export{t as n,e as r,n as t};
