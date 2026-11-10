@@ -1,4 +1,6 @@
-# Ear Trainer (placeholder name)
+# Ear to Ear
+
+A competitive ear-training game: hear it, play it back.
 
 **Play:** https://jland123.github.io/eartrainer-site/
 

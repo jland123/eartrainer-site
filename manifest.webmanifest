@@ -1,17 +1,31 @@
 {
-  "name": "Ear Trainer",
-  "short_name": "Ear Trainer",
-  "description": "Hear famous melodies and play them back.",
+  "id": "./",
+  "name": "Ear to Ear",
+  "short_name": "Ear to Ear",
+  "description": "A competitive ear-training game: hear melodies, chords, rhythms, drum beats and progressions, then play them back. Head to head against a bot or a friend, the Daily Song and practice. Free, no sign-up, no ads.",
+  "lang": "en",
+  "dir": "ltr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#1c1b19",
   "theme_color": "#1c1b19",
+  "categories": ["games", "music", "education"],
   "icons": [
     { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
     { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Daily Song", "short_name": "Daily", "description": "Today's song", "url": "./#/daily", "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Head-to-Head", "short_name": "Play", "description": "Play the bot or a friend", "url": "./#/duel", "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Practice", "short_name": "Practice", "description": "Intervals, chords, melodies and rhythm", "url": "./#/practice", "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ],
+  "screenshots": [
+    { "src": "screenshots/phone-home.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Home: Head-to-Head, the Daily Song and Practice" },
+    { "src": "screenshots/phone-daily.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Daily Song: hear a few notes, play them back" },
+    { "src": "screenshots/desktop-home.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "Ear to Ear on a computer" }
   ]
 }

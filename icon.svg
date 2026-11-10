@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="7" fill="#f4efe4"/>
-  <g transform="translate(3.2 3.2) scale(0.8)">
-    <path d="M2 22h28M2 16h28M2 10h28" stroke="#d9cfbc" stroke-width="1"/>
-    <ellipse cx="12" cy="22" rx="4.6" ry="3.4" transform="rotate(-20 12 22)" fill="#a8251c"/>
-    <path d="M16.2 21V5c3.5 1.6 6.6 3.8 6.8 8" fill="none" stroke="#a8251c" stroke-width="2" stroke-linecap="round"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.0 32.0" width="32" height="32" role="img" aria-label="Ear to Ear"><title>Ear to Ear</title><g transform="translate(0.00 0.00) scale(1.00000)"><rect width="32" height="32" rx="9.6" fill="#8fd14f"/><g transform="translate(4.3 4.3) scale(0.73)"><path d="M2 22h28M2 16h28M2 10h28" stroke="#13210a" stroke-opacity="0.25" stroke-width="1"/><ellipse cx="12" cy="22" rx="4.6" ry="3.4" transform="rotate(-20 12 22)" fill="#13210a"/><path d="M16.2 21V5c3.5 1.6 6.6 3.8 6.8 8" fill="none" stroke="#13210a" stroke-width="2" stroke-linecap="round"/></g></g></svg>

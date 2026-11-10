@@ -1,0 +1,1 @@
+var e=`jakoblanda6@gmail.com`,t=`Ear to Ear`;export{e as n,t};

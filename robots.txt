@@ -1,0 +1,7 @@
+# Crawlers only read robots.txt at the root of a host. While the site lives at
+# jland123.github.io/eartrainer-site/ this file is not used; it takes effect once
+# the game moves to its own domain (update the Sitemap line then).
+User-agent: *
+Allow: /
+
+Sitemap: https://jland123.github.io/eartrainer-site/sitemap.xml

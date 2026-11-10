@@ -3,32 +3,94 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Ear to Ear: ear training, head to head</title>
+    <meta name="description" content="A competitive ear-training game: hear melodies, chords, rhythms, drum beats and progressions, then play them back. Head to head against a bot or a friend, the Daily Song and practice. Free, no sign-up, no ads." />
+    <link rel="canonical" href="https://jland123.github.io/eartrainer-site/" />
     <meta name="theme-color" content="#1c1b19" />
-    <meta name="description" content="Ear-training game: hear famous public-domain melodies and play them back. Head-to-Head against the bot or a friend, a Daily Melody puzzle, and Practice." />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Ear Trainer" />
-    <meta property="og:description" content="Hear famous melodies. Play them back. Head-to-Head, Daily Melody and Practice." />
+    <meta property="og:site_name" content="Ear to Ear" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:title" content="Ear to Ear: Hear it. Play it back." />
+    <meta property="og:description" content="Ear training, head to head: melodies, chords, rhythms, drum beats and progressions against a bot or a friend, plus the Daily Song and practice. Free, no sign-up, no ads." />
     <meta property="og:image" content="https://jland123.github.io/eartrainer-site/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ear to Ear: Hear it. Play it back. A Head-to-Head chord round with two life bars, and a Daily Song run shown as a row of coloured tiles." />
     <meta property="og:url" content="https://jland123.github.io/eartrainer-site/" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ear to Ear: Hear it. Play it back." />
+    <meta name="twitter:description" content="Ear training, head to head: melodies, chords, rhythms, drum beats and progressions against a bot or a friend, plus the Daily Song and practice. Free, no sign-up, no ads." />
+    <meta name="twitter:image" content="https://jland123.github.io/eartrainer-site/og-image.png" />
+    <meta name="twitter:image:alt" content="Ear to Ear: Hear it. Play it back. A Head-to-Head chord round with two life bars, and a Daily Song run shown as a row of coloured tiles." />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Ear Trainer" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Ear to Ear" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <link rel="icon" href="./icon.svg" type="image/svg+xml" />
     <link rel="icon" href="./icon-192.png" type="image/png" sizes="192x192" />
     <link rel="apple-touch-icon" href="./icon-180.png" />
     <link rel="manifest" href="./manifest.webmanifest" />
-    <title>Ear Trainer</title>
-    <script type="module" crossorigin src="./assets/index-BlvE_CUH.js"></script>
+    <script>
+      // A light-theme player's choice, before anything is painted (src/components/theme.ts repeats it once the app runs).
+      try { if (/"theme":"light"/.test(localStorage.getItem('eartrainer:v1') || '')) document.documentElement.dataset.theme = 'light'; } catch (e) {}
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["WebApplication", "VideoGame"],
+        "name": "Ear to Ear",
+        "url": "https://jland123.github.io/eartrainer-site/",
+        "description": "A free competitive ear-training game in the browser: hear melodies, chords, rhythms, drum beats and chord progressions, then play them back. Head-to-Head against a bot or a friend, the Daily Song and Practice. No sign-up, no ads.",
+        "image": "https://jland123.github.io/eartrainer-site/og-image.png",
+        "inLanguage": "en",
+        "applicationCategory": "GameApplication",
+        "applicationSubCategory": "Ear training",
+        "genre": ["Music", "Puzzle", "Educational"],
+        "operatingSystem": "Any (runs in a web browser)",
+        "browserRequirements": "Requires JavaScript and a current web browser.",
+        "gamePlatform": ["Web browser"],
+        "playMode": ["SinglePlayer", "MultiPlayer"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "audience": { "@type": "Audience", "audienceType": "Hobbyist musicians, music students and choir singers" },
+        "featureList": [
+          "Head-to-Head: melody, chord, rhythm, drum and chord-progression rounds against a bot (levels 1 to 10), a friend on the same device, or a friend online by invite code",
+          "Daily Song: one famous song a day, a few notes at a time; three wrong notes and you're out",
+          "Daily Melody: guess one famous phrase note by note in six tries",
+          "Practice: intervals, chords, scales, melodies, progressions and rhythm, with presets, random notes in any key and a progress chart",
+          "Piano, electric piano, nylon guitar, strings, marimba or soft synth",
+          "Works offline after the first visit",
+          "No sign-up, no ads"
+        ]
+      }
+    </script>
+    <style>html,body{background:#1c1b19;margin:0}html[data-theme=light],html[data-theme=light] body{background:#eeece8}.boot{box-sizing:border-box;text-align:center;color:#f3f1ec;flex-direction:column;justify-content:center;align-items:center;gap:12px;min-height:100vh;padding:24px;font-family:Instrument Sans Variable,system-ui,-apple-system,Segoe UI,sans-serif;display:flex}.boot h1{letter-spacing:-.02em;margin:0;font-size:2.2rem;font-weight:800;line-height:1.1}.boot h1:after{content:"";background:#8fd14f;border-radius:3px;width:48px;height:5px;margin:12px auto 0;display:block}.boot p{color:#c2bdb4;max-width:36ch;margin:0;font-size:1rem;line-height:1.5}html[data-theme=light] .boot{color:#1d1c1a}html[data-theme=light] .boot p{color:#4b4842}</style>
+    <script type="module" crossorigin src="./assets/index-D4bfZtYg.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-XKyaHtl9.js">
     <link rel="modulepreload" crossorigin href="./assets/react-yghMKqPI.js">
     <link rel="modulepreload" crossorigin href="./assets/theory-VSX5M5Ba.js">
-    <link rel="modulepreload" crossorigin href="./assets/instruments-Dk4MfZlN.js">
-    <link rel="modulepreload" crossorigin href="./assets/store-CX88lO0H.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-C_i5nOdM.css">
+    <link rel="modulepreload" crossorigin href="./assets/instruments-BNwCxhVD.js">
+    <link rel="modulepreload" crossorigin href="./assets/ui-CBZUTKVd.js">
+    <link rel="modulepreload" crossorigin href="./assets/store-CEB7qbjW.js">
+    <link rel="modulepreload" crossorigin href="./assets/contact-DP_lx1De.js">
+    <link rel="modulepreload" crossorigin href="./assets/definitions-BtTk7Mtv.js">
+    <link rel="modulepreload" crossorigin href="./assets/Feedback-DKHs5Z1o.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-BtyV8H5S.css">
   </head>
   <body>
-    <noscript>This game needs JavaScript.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <main class="boot">
+        <h1>Ear to Ear</h1>
+        <p>A competitive ear-training game. Hear it, play it back: head to head against a bot or a friend. Free, no sign-up, no ads.</p>
+        <noscript>
+          <p>
+            This game needs JavaScript. With it on you can play Head-to-Head with melody, chord, rhythm, drum and progression rounds against a
+            bot or a friend, the Daily Song (one famous song a day, a few notes at a time), the Daily Melody puzzle, and practise intervals,
+            chords, scales, melodies, progressions and rhythm. Free, no sign-up, no ads.
+          </p>
+        </noscript>
+      </main>
+    </div>
   </body>
 </html>
