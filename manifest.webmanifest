@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Ear to Ear",
   "short_name": "Ear to Ear",
-  "description": "Hear a tune, play it back, beat your friends. Head-to-Head against the bot or a friend, a new Daily Song every day, and practice at your own pace. Free, no sign-up, no ads.",
+  "description": "Hear a tune and play it back. Head-to-Head against the bot or a friend, a new Daily Song every day, and practice at your own pace. Free, no sign-up, no ads.",
   "lang": "en",
   "dir": "ltr",
   "start_url": "./",
